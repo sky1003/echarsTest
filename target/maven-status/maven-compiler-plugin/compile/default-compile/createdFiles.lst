@@ -1,0 +1,6 @@
+com\qfedu\entity\ScoreResult.class
+com\qfedu\service\impl\NewStudentInfoServiceImpl.class
+com\qfedu\controller\EchartController.class
+com\qfedu\dao\NewStudentInfoDao.class
+com\qfedu\entity\NewStudent.class
+com\qfedu\service\NewStudentInfoService.class
