@@ -31,6 +31,7 @@ public class EchartController {
     @RequestMapping("/getData.do")
     @ResponseBody
     public List<ScoreResult> getData(){
+
         List<NewStudent> allStudent = newStudentInfoService.getAllStudent();
         List<ScoreResult> results = new ArrayList<>();
         for (NewStudent newstudent : allStudent) {
